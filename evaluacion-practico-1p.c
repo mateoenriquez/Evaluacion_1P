@@ -19,10 +19,16 @@ int main() {
     int numero; 
 
     //Variable numero inicializada, se pide numero entero y se asigna lo ingresado a "numero"
-    
-    printf("Ingrese un número entero: ");
+    printf("Ingrese un numero entero: ");
+    //Con while se limita que la resultante exceda de dos digitos
     scanf("%d", &numero);
+        while (numero >= 10) {
+        numero = sumarDigitos(numero);
+        //Se asigna la variable numero la funcion sumarDigitos
+    }
     
+    //Resultado
+    printf("El numero de un digito resultante es: %d\n", numero);
     
     return 0;
 }
