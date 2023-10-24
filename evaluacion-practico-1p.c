@@ -14,3 +14,18 @@ int sumarDigitos(int num) {
     return suma;
 }
 
+//Agregamos la funcion principal main
+int main() {
+    int numero; 
+
+    //Variable numero inicializada, se pide numero entero y se asigna lo ingresado a "numero"
+    
+    printf("Ingrese un número entero: ");
+    scanf("%d", &numero);
+    
+    
+    return 0;
+}
+
+
+
